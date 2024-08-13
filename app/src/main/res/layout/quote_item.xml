@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:padding="8dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/quoteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quote"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+

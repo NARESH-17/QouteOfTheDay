@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InspireMeApp</string>
+    <string name="lastquoteID">lastQuoteID</string>
+    <string name="no_quotes_in_the_favorites">No Quotes in the Favorites</string>
+</resources>
